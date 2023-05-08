@@ -12,5 +12,5 @@ The custom protein reference must be in fasta format, which will be indexed prio
 
 The tool was originally designed for filtering MHC Class I peptides that match the human proteome, in order to prioritize foreign peptides for immunogenicity assays. 
 
-<img src="img/flow_diagram.png" width="400"> 
+<img src="img/flow_diagram.png" width="800"> 
 
