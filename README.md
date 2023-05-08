@@ -14,3 +14,6 @@ The tool was originally designed for filtering MHC Class I peptides that match t
 
 <img src="img/flow_diagram.png" width="800"> 
 
+# Input
+
+T
