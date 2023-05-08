@@ -90,8 +90,9 @@ tzdata==2023.3
 urllib3==1.26.15
 ```
 
-# Future insights
+# Current issues
 
-- Currently, run time is very large for huge number of peptides
+- Run time is very large for huge number of peptides
 - Using formal databases instead of pandas dataframes might speed the process
 - Using pre-indexed references instead of fasta files increases the speed but takes dozens of Gb storage
+- If there is any strange character in either the reference or the input, the alignment will fail displaying a warning but the code will continue running. However, the peptide will be kept as `no matches` causing a putative false positive. The typical example is peptides containing the 'X' character which stands for unknown aminoacid. This peptide won't have any perfect match in the reference and will be kept as foreing peptide when it might actually be perfectly matching into the reference. 
